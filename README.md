@@ -6,7 +6,7 @@ POST/ https://coffeesow.herokuapp.com/predict
 
 ## Request
 | Name        | Data type   |  Required   | Range       | Description                       |
-| :---------  |:-----------:|:-----------:|:-----------:|----------------------------------:|
+| :---------: |:-----------:|:-----------:|:-----------:|:---------------------------------:|
 | Temperature | Float       | True        | [0,50]      | Temperature in degrees centigrade |
 | Humidity    | Float       | True        | [0,1]       | Relative air humidity             |
 | Altitude    | Float       | True        | [0,5000]    | Meters above sea level            |
