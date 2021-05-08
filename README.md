@@ -13,4 +13,9 @@ POST/ https://coffeesow.herokuapp.com/predict
 | humidity    | Float       | True        | [0,1]       | Relative air humidity             |
 | altitude    | Float       | True        | [0,5000]    | Meters above sea level            |
 | rain        | Float       | True        | [0,1000]    | Liter per square meter per month  |
-| sunshine    | Float       | True        | [0,24]      | Hours of sunshine a day           |
+| sunshine    | Float       | True        | [0,24]      | Hours of sunshine a day           | 
+
+## Output
+- **Sow**     - if is good to sow given the inputs
+- **Not Sow** - if is not good to sow
+- **Errors**  - if a bad request has been realized
