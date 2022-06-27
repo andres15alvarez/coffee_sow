@@ -1,1 +1,1 @@
-web: python main.py
+web: source start.sh && python main.py
